@@ -67,9 +67,9 @@ class Login extends Component {
                         <div className="col-12 form-group login-input">
                             <label>Password:</label>
                             <div className="custom-input-password">
-                                <input type="text" 
+                                <input  
                             className="form-control" 
-                            type= {this.state.isShowPassword ? 'text' : 'password'}
+                            type = {this.state.isShowPassword ? 'text' : 'password'}
                             placeholder="Enter your password"
                             value={this.state.password} 
                             onChange={(event) => this.handleOnChangePassword(event)}
